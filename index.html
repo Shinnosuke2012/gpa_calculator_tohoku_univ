@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東北大学GPA計算機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mv">
+        <div class="ttl">
+            <h1>東北大学GPA計算機</h1>
+        </div>
+        <div class="logo">
+            <img src="http://www.bureau.tohoku.ac.jp/koho/logo/logo_e_n.png">
+        </div>
+    </div>
+
+    <div class="cv">
+        <div class="SGPA">
+            <div class="head">
+                <h2>■ GPAの計算</h2>
+            </div>
+            <div class="sub-head">
+                <h3>*必要事項を記入してください</h3>
+            </div>
+            <form id="form1" action="#">
+                <div class="item">2単位のAAの数</div>
+                <input type="text" id="SAA2">
+                <div class="item">2単位のAの数</div>
+                <input type="text" id="SA2">
+                <div class="item">2単位のBの数</div>
+                <input type="text" id="SB2">
+                <div class="item">2単位のCの数</div>
+                <input type="text" id="SC2">
+                <div class="item">2単位のDの数</div>
+                <input type="text" id="SD2">
+                <div class="item">1単位のAAの数</div>
+                <input type="text" id="SAA1">
+                <div class="item">1単位のAの数</div>
+                <input type="text" id="SA1">
+                <div class="item">1単位のBの数</div>
+                <input type="text" id="SB1">
+                <div class="item">1単位のCの数</div>
+                <input type="text" id="SC1">
+                <div class="item">1単位のDの数</div>
+                <input type="text" id="SD1">
+                <input type="button"  onclick="cal()" value="計算">
+            </form>
+
+            <hr></hr>
+            <div id="result"></div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
